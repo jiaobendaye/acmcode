@@ -16,7 +16,7 @@ int main() {
         while(!stk.empty() && vec[i] > vec[stk.top()]){
             int top = stk.top();
             stk.pop();
-            ans[i] = i-top;
+            ans[top] = i-top;
         }
         stk.push(i);
     }
