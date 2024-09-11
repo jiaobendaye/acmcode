@@ -2,6 +2,7 @@
 #include <vector>
 #include <sstream>
 #include <queue>
+#include <algorithm>
 
 using namespace std;
 int main() {
