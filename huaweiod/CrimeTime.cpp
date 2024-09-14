@@ -42,9 +42,6 @@ int main() {
     }
     pair<int, int> now = {v[0], v[1]};
     vector<pair<int, int>> all_points;
-    // all_points.push_back(now);
-    vector<pair<int, int>> late_points;
-    vector<pair<int, int>> early_points;
     for(int a:cnt) {
         for(int b:cnt) {
             for(int c:cnt) {
